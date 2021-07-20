@@ -1,0 +1,23 @@
+div .bodyScreen {
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #0a0a0a;
+}
+
+div .operationScreen {
+  font-size: 25px;
+  color: #fff;
+  height: 20px;
+}
+
+div .valueScreen {
+  font-size: 50px;
+  color: #fff;
+}

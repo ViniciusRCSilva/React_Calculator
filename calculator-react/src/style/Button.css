@@ -1,0 +1,27 @@
+.buttonStyle {
+	transition: 0.5s;
+	cursor: pointer;
+	font-size: 30px;
+	height: 75px;
+	width: 75px;
+	padding: px;
+	background-color: #363636;
+	color: white;
+	border-radius: 50%;
+	text-align: center;
+	outline: none;
+}
+
+button:hover {
+	background-color: #1a1a1a;	
+}
+
+button:active {
+	transform: scale3d(0.95, 0.95, 0.95);
+}
+
+div .buttonBody {
+	padding-top: 10px;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
